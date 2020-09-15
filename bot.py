@@ -20,7 +20,7 @@ client.version = '0.0.1'
 
 @client.event
 async def on_ready():
-    print(f"-----\nLogged in as: {client.user.name} : {client.user.id}\n-----\nMy current prefix is: .\n-----")
+    print(f"-----\nLogged in as: {client.user.name} <@{client.user.id}>\n-----\nMy current prefix is: .\n-----")
     await client.change_presence(activity=discord.Game(name=f"\"Don'\t hurt me\" -{client.user.name}")) # This changes the bots 'activity'
 
 @client.event
@@ -31,16 +31,16 @@ async def on_command_error(ctx, error):
         return
 
     #Begin error handling
-    if isinstance(error, command.CommandOnCooldown):
+    if isinstance(error, commands.CommandOnCooldown):
         m, s = divmod(error.retry_after, 60)
         h, m = divmod(m, 60)
-        if int(h) is 0 and int(m) is 0:
+        if int(h) == 0 & int(m) == 0:
             await ctx.send(f'You must wait {int(s)} seconds to use this command!')
-        elif int(h) is 0 and int(m) is not 0:
+        elif int(h) == 0 & int(m) != 0:
             await ctx.send(f'You must wait {int(m)} minutes and {int(s)} seconds to use this command!')
         else:
             await ctx.send(f'You must wait {int(h)} hours, {int(m)} minutes and {int(s)} seconds to use this command!')
-    elif isinstance(error, command.CheckFailure):
+    elif isinstance(error, commands.CheckFailure):
         await ctx.send("Hey! You lack permission to use this command.")
     raise error
 
@@ -60,22 +60,21 @@ async def stats(ctx):
     dpyVersion = discord.__version__
     serverCount = len(client.guilds)
     memberCount = len(set(client.get_all_members()))
-    
-    embed = discord.Embed(title = f'{client.user.name} Stats', description = '\uFEFF', color = ctx.author.color, timestamp = ctx.message.created_at)
 
-    embed.add_feild(name = 'Bot Version:', value = client.version)
-    embed.add_feild(name = 'Python Version', value = pythonVersion)
-    embed.add_feild(name = 'Discord.py Version:', value = dpyVersion)
-    embed.add_feild(name = 'Total Guilds:', value = serverCount)
-    embed.add_feild(name = 'Total Users:', value = memberCount)
-    embed.add_feild(name = 'Bot Developers:', value = "<@300251178107928576>")
+    embed = discord.Embed(title = f'{client.user.name} Stats', description = '\uFEFF', colour = ctx.author.colour, timestamp = ctx.message.created_at)
 
-    embed.set_footer(text = f'Carpe Noctem | {client.user.name}')
+    embed.add_field(name = 'Bot Version:', value = client.version)
+    embed.add_field(name = 'Python Version:', value = pythonVersion)
+    embed.add_field(name = 'Discord.Py Version', value = dpyVersion)
+    embed.add_field(name = 'Total Guilds:', value = serverCount)
+    embed.add_field(name = 'Total Users:', value = memberCount)
+    embed.add_field(name = 'Bot Developers:', value = "<@300251178107928576>")
+
+    embed.set_footer(text = f"Carpe Noctem | {client.user.name}")
     embed.set_author(name = client.user.name, icon_url = client.user.avatar_url)
 
     await ctx.send(embed = embed)
-
-@client.command(aliases=['disconnect', 'close', 'stopbot'])
+@client.command(aliases = ['disconnect', 'close', 'stopbot'])
 @commands.is_owner()
 async def logout(ctx):
     """

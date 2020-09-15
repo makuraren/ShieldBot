@@ -1,0 +1,405 @@
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+=========== RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ==========
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-mrqk",{"micros":90888,"calls":["discord-sessions-prd-2-31",{"micros":88346,"calls":["start_session",{"micros":50179,"calls":["api-prd-main-dt92",{"micros":47595,"calls":["get_user",{"micros":3872},"add_authorized_ip",{"micros":1516},"get_guilds",{"micros":6968},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":18,"calls":[]},"presence_connect",{"micros":15687,"calls":[]}]}]}] (Session ID: 20a85de4eb92fe53bfac9b76842428c2).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 34, in on_command_error
+    if isinstance(error, command.CommandOnCooldown):
+NameError: name 'command' is not defined
+
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+=========== RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ==========
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-shfx",{"micros":87289,"calls":["discord-sessions-prd-2-57",{"micros":82492,"calls":["start_session",{"micros":56630,"calls":["api-prd-main-4qxj",{"micros":52620,"calls":["get_user",{"micros":2885},"add_authorized_ip",{"micros":1536},"get_guilds",{"micros":1666},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":21,"calls":[]},"presence_connect",{"micros":17698,"calls":[]}]}]}] (Session ID: 4e9ae62bbee4d4bc413731523ee55e25).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 43, in on_command_error
+    elif isinstance(error, command.CheckFailure):
+NameError: name 'command' is not defined
+
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+=========== RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ==========
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-v1tb",{"micros":121333,"calls":["discord-sessions-prd-2-36",{"micros":120012,"calls":["start_session",{"micros":97684,"calls":["api-prd-main-4mmn",{"micros":94438,"calls":["get_user",{"micros":5902},"add_authorized_ip",{"micros":6711},"get_guilds",{"micros":5958},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 51466da30cc8ac04974b157dd02bcdaa).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 66, in stats
+    embed.add_feild(name = 'Bot Version:', value = client.version)
+AttributeError: 'Embed' object has no attribute 'add_feild'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 45, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'Embed' object has no attribute 'add_feild'
+
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+=========== RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ==========
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-lnn3",{"micros":63434,"calls":["discord-sessions-prd-2-18",{"micros":62659,"calls":["start_session",{"micros":47704,"calls":["api-prd-main-hf7x",{"micros":44170,"calls":["get_user",{"micros":5431},"add_authorized_ip",{"micros":4072},"get_guilds",{"micros":2494},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":23,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 8065c162dd00a744761b2e3786887d21).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 66, in stats
+    embed.add_feild(name = 'Bot Version:', value = client.version)
+AttributeError: 'Embed' object has no attribute 'add_feild'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 45, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'Embed' object has no attribute 'add_feild'
+
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+================================================= RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ================================================
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-j028",{"micros":62940,"calls":["discord-sessions-prd-2-50",{"micros":61668,"calls":["start_session",{"micros":32742,"calls":["api-prd-main-l3n8",{"micros":27634,"calls":["get_user",{"micros":2495},"add_authorized_ip",{"micros":1524},"get_guilds",{"micros":1488},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":11,"calls":[]},"presence_connect",{"micros":4658,"calls":[]}]}]}] (Session ID: 189d796f176169b6f0ee2f8af60cc6e9).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 66, in stats
+    embed.add_feild(name = 'Bot Version:', value = client.version)
+AttributeError: 'Embed' object has no attribute 'add_feild'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 45, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'Embed' object has no attribute 'add_feild'
+
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+================================================= RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ================================================
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-p0hd",{"micros":419890,"calls":["discord-sessions-prd-1-5",{"micros":418587,"calls":["start_session",{"micros":405242,"calls":["api-prd-main-tbtj",{"micros":402545,"calls":["get_user",{"micros":292966},"add_authorized_ip",{"micros":3737},"get_guilds",{"micros":4703},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6581,"calls":[]}]}]}] (Session ID: 26a33262fe7a60654813632ede0f3835).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 66, in stats
+    embed.add_feild(name = 'Bot Version:', value = client.version)
+AttributeError: 'Embed' object has no attribute 'add_feild'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 45, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'Embed' object has no attribute 'add_feild'
+
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+================================================= RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ================================================
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-c6q2",{"micros":68766,"calls":["discord-sessions-prd-2-76",{"micros":66541,"calls":["start_session",{"micros":57584,"calls":["api-prd-main-fwjf",{"micros":50840,"calls":["get_user",{"micros":5762},"add_authorized_ip",{"micros":4684},"get_guilds",{"micros":4155},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":5628,"calls":[]}]}]}] (Session ID: 80db6a600d8384402eab55d8b2fa1ec8).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 37
+    if int(h) is 0 and int(m) is 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is" with a literal. Did you mean "=="?
+>>> 
+Warning (from warnings module):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 39
+    elif int(h) is 0 and int(m) is not 0:
+SyntaxWarning: "is not" with a literal. Did you mean "!="?
+>>> 
+================================================= RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ================================================
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-q8xc",{"micros":64490,"calls":["discord-sessions-prd-1-3",{"micros":61800,"calls":["start_session",{"micros":29857,"calls":["api-prd-main-hjx6",{"micros":27523,"calls":["get_user",{"micros":2392},"add_authorized_ip",{"micros":1254},"get_guilds",{"micros":3514},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":7,"calls":[]},"presence_connect",{"micros":18420,"calls":[]}]}]}] (Session ID: 33319c0650a46b8f5baed1523d7c35ce).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+
+================================================= RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ================================================
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-3mm3",{"micros":1053241,"calls":["discord-sessions-prd-1-8",{"micros":1052005,"calls":["start_session",{"micros":1041582,"calls":["api-prd-main-qqxz",{"micros":1037297,"calls":["get_user",{"micros":8418},"add_authorized_ip",{"micros":8555},"get_guilds",{"micros":936591},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":2818,"calls":[]}]}]}] (Session ID: 2f8131f4f25fd9c33d94ec62baf474f9).
+-----
+Logged in as: ShieldBot : 754876371829784717
+-----
+My current prefix is: .
+-----
+INFO:discord.gateway:Websocket closed with 1000, cannot reconnect.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+>>> 
+================================================= RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ================================================
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-p087",{"micros":64424,"calls":["discord-sessions-prd-2-71",{"micros":57912,"calls":["start_session",{"micros":36214,"calls":["api-prd-main-2r8l",{"micros":32735,"calls":["get_user",{"micros":2816},"add_authorized_ip",{"micros":1223},"get_guilds",{"micros":1502},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":15688,"calls":[]}]}]}] (Session ID: 11c7bd13b11114114a83a7e60388f487).
+-----
+Logged in as: ShieldBot (<@754876371829784717>)
+-----
+My current prefix is: .
+-----
+
+================================================= RESTART: C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py ================================================
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-k901",{"micros":92081,"calls":["discord-sessions-prd-2-11",{"micros":91302,"calls":["start_session",{"micros":85118,"calls":["api-prd-main-hjx6",{"micros":80702,"calls":["get_user",{"micros":4995},"add_authorized_ip",{"micros":9215},"get_guilds",{"micros":1882},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":8,"calls":[]},"presence_connect",{"micros":1610,"calls":[]}]}]}] (Session ID: 22344bcf95f6069d722da9fa3e55a02c).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: .
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+>>> 
