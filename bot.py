@@ -16,11 +16,15 @@ client = commands.Bot(command_prefix='.', case_insensitive=True, owner_id = 3002
 client.config_token = secret_file['token']
 logging.basicConfig(level=logging.INFO)
 
-client.version = '0.0.1'
+client.version = '0.1.1'
+
+client.blacklisted_users = []
 
 @client.event
 async def on_ready():
     print(f"-----\nLogged in as: {client.user.name} <@{client.user.id}>\n-----\nMy current prefix is: .\n-----")
+    data = read_json("blacklist")
+    client.blacklist_users = data["blacklistedUsers"]
     await client.change_presence(activity=discord.Game(name=f"\"Don'\t hurt me\" -{client.user.name}")) # This changes the bots 'activity'
 
 @client.event
@@ -44,6 +48,43 @@ async def on_command_error(ctx, error):
         await ctx.send("Hey! You lack permission to use this command.")
     raise error
 
+@client.event
+async def on_message(message):
+    #Ignore ourselves
+    if message.author.id == client.user.id:
+        return
+
+    #Blacklist system
+    if message.author.id in client.blacklist_users:
+        return
+
+    if message.content.lower().startswith("help"):
+        await message.channel.send("Hey! Why don't you run the help command with `-help`")
+
+    await client.process_commands(message)
+
+@client.command()
+@commands.is_owner()
+async def blacklist(ctx, user: discord.Member):
+    if ctx.message.author.id == user.id:
+        await ctx.send("Hey, you cannot blacklist yourself!")
+        return
+
+    client.blacklisted_users.append(user.id)
+    data = read_json("blacklist")
+    data["blacklistedUsers"].append(user.id)
+    write_json(data, "blacklist")
+    await ctx.send(f"Hey, I have blacklisted {user.name} for you.")
+
+@client.command()
+@commands.is_owner()
+async def unblacklist(ctx, user: discord.Member):
+    client.blacklisted_users.remove(user.id)
+    data = read_json("blacklist")
+    data["blacklistedUsers"].remove(user.id)
+    write_json(data, "blacklist")
+    await ctx.send(f"Hey, I have unblacklisted {user.name} for you.")
+
 @client.command(name='hi', aliases=['hello'])
 async def _hi(ctx):
     """
@@ -65,12 +106,12 @@ async def stats(ctx):
 
     embed.add_field(name = 'Bot Version:', value = client.version)
     embed.add_field(name = 'Python Version:', value = pythonVersion)
-    embed.add_field(name = 'Discord.Py Version', value = dpyVersion)
+    embed.add_field(name = 'Discord.py Version', value = dpyVersion)
     embed.add_field(name = 'Total Guilds:', value = serverCount)
     embed.add_field(name = 'Total Users:', value = memberCount)
-    embed.add_field(name = 'Bot Developers:', value = "<@300251178107928576>")
+    embed.add_field(name = 'Bot\'s Father:', value = "<@300251178107928576>")
 
-    embed.set_footer(text = f"Carpe Noctem | {client.user.name}")
+    embed.set_footer(text = f"{client.user.name} | {client.user.id}")
     embed.set_author(name = client.user.name, icon_url = client.user.avatar_url)
 
     await ctx.send(embed = embed)
@@ -91,5 +132,14 @@ async def echo(ctx, *, message=None):
     message = message or "Please provide the message to be repeated."
     await ctx.message.delete()
     await ctx.send(message)
+
+def read_json(filename):
+    with open(f"{cwd}/client_config/{filename}.json", "r") as file:
+        data = json.load(file)
+    return data
+
+def write_json(data, filename):
+    with open(f"{cwd}/client_config/{filename}.json", "w") as file:
+        json.dump(data, file, indent=4)
 
 client.run(client.config_token)
