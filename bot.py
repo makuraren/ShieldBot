@@ -66,6 +66,9 @@ async def on_message(message):
 @client.command()
 @commands.is_owner()
 async def blacklist(ctx, user: discord.Member):
+    """
+    A command that blacklists a user {owner only}
+    """
     if ctx.message.author.id == user.id:
         await ctx.send("Hey, you cannot blacklist yourself!")
         return
@@ -79,6 +82,9 @@ async def blacklist(ctx, user: discord.Member):
 @client.command()
 @commands.is_owner()
 async def unblacklist(ctx, user: discord.Member):
+    """
+    A command that blacklists a user {owner only}
+    """
     client.blacklisted_users.remove(user.id)
     data = read_json("blacklist")
     data["blacklistedUsers"].remove(user.id)
