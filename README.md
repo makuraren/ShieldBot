@@ -1,9 +1,17 @@
 # ShieldBot for Discord
+
 [click to add me to your discord server](https://discord.com/api/oauth2/authorize?client_id=754876371829784717&permissions=8&scope=bot)
 
 # Info
-
+Since my journey in learning python began with a single college class, I took the liberty in making a new discord bot with a language I feel more comfortable with. Discord.py at least in my opinion works so much better than Discord.js since the ping in between events is insanely low. I hope this bot can one day be full of commands and little nifty tools for gamers and casual chatties can enjoy.
 # Tasks
+- [ ] make cogs for command handlers
+- [ ] make cogs for event handlers
+- [x] figure out how to hide the key more efficiently
+- [x] modify the debugger menu
+- [ ] offer more moderation control when more aggressive commands are made
+- [x] update markdown
+- [x] get bot up and running
 
 # Commands
 Since this is a new bot with no real method to organize commands right now, most commands are simple and not threatening right now. Keep in mind as I grow this list I will add specific notes to ensure these commands will not fall into the wrong hands.
