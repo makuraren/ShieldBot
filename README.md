@@ -7,22 +7,22 @@ Since this is a new bot with no real method to organize commands right now, most
 ### Owner-Specific Commands
 While few in numbers these do exist:
 
-**blacklist command**/n
-Format:/n
-_(prefix)[command] {user id/mention user}_/n
-Description:/n
-This command does absolutely nothing other than placing the persons id into a json file./n
+**blacklist command**  
+Format:  
+_(prefix)[command] {user id/mention user}_  
+Description:  
+This command does absolutely nothing other than placing the persons id into a json file.  
 ***If the user's id is inside this document in Ver 0.1.1, they are still allowed to use regular commands.***
 
-**unblacklist command**/n
-Format:/n
-_(prefix)[command] {user id/mention user}_/n
-Description:/n
-This command removes the user's id from the blacklist json file./n
+**unblacklist command**  
+Format:  
+_(prefix)[command] {user id/mention user}_  
+Description:  
+This command removes the user's id from the blacklist json file.  
 ***If the user's id is inside this document in Ver 0.1.1, they are still allowed to use regular commands.***
 
 ### User-Specific Commands
-These commands are made entirely for the user to enjoy. While most of my really fun ones are in a previous version not available for viewing, I will implement these when I begin to organize cogs into the bot. For now, here are a few commands active as of Ver 0.1.1:
+These commands are made entirely for the user to enjoy. While most of my really fun ones are in a previous version not available for viewing, I will implement these when I begin to organize cogs into the bot. For now, here are a few commands active as of Ver 0.1.1:  
 
 ```{template}
 **[name] command**
@@ -30,11 +30,11 @@ Format: _(prefix)_
 Description:
 ```
 
-**[name] command**/n
-Format:/n
-_(prefix)_/n
-Description:/n
-/n
+**[name] command**  
+Format:  
+_(prefix)_  
+Description:  
+
 
 **[name] command**
 Format: _(prefix)_
