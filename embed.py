@@ -1,56 +1,56 @@
 embed = discord.Embed(
-    title="this *supports* a **subset** of ~~R Markdown~~",
+    title="",
     color=discord.Colour(0x3b12ef),
-    url="https://discordapp.com",
-    description="this supports [named links](https://discordapp.com) on top of the subset of markdown.\nYou can use newlines too!",
-    timestamp=datetime.datetime.utcfromtimestamp(1580842764) # or any other datetime type format.
+    url="",
+    description="",
+    timestamp=datetime.datetime.utcfromtimestamp(1580842764)
 )
-embed.set_image(url="https://cdn.discordapp.com/embed/avatars/0.png")
-embed.set_thumbnail(url="https://cdn.discordapp.com/embed/avatars/1.png")
+embed.set_image(url="")
+embed.set_thumbnail(url="")
 embed.set_author(
-    name="author name",
-    url="https://discordapp.com",
-    icon_url="https://cdn.discordapp.com/embed/avatars/2.png"
+    name="",
+    url="",
+    icon_url=""
 )
 embed.set_footer(
-    text="footer text",
-    icon_url="https://cdn.discordapp.com/embed/avatars/3.png"
+    text="",
+    icon_url=""
 )
 
 embed.add_field(
-    name="footer title",
-    value="some of these properties have different limits."
+    name="",
+    value=""
 )
 embed.add_field(
-    name="another footer title",
-    value="try exceeding some of them! (coz idk them)"
+    name="",
+    value=""
 )
 embed.add_field(
-    name=":thinking: this supports emotes! (and custom ones too)",
-    value="if you exceed them, the error will tell you which value exceeds it."
+    name="",
+    value=""
 )
 embed.add_field(
-    name="Inline",
-    value="these last two fields",
+    name="",
+    value="",
     inline=True
 )
 embed.add_field(
-    name="Fields",
-    value="are inline fields",
+    name="",
+    value="",
     inline=True
 )
 
 await ctx.send(
-    content="This is a normal message to be sent alongside the embed",
+    content="",
     embed=embed
 )
 
 If you want to send a local file as the embed image:
 embed = discord.Embed()
 embed.set_image(
-    url="attachment://hello.png"
+    url=""
 )
-image = discord.File("hello.png")
+image = discord.File("")
 await ctx.send(
     embed=embed
     file=image
