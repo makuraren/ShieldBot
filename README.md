@@ -19,22 +19,22 @@ Since this is a new bot with no real method to organize commands right now, most
 ## Owner-Specific Commands
 While few in numbers these do exist:
 
-### [blacklist command]
->If the user's id is inside this document in Ver 0.1.1, they are still allowed to use regular commands.
+### [blacklist]
+>***If the user's id is inside this document in Ver 0.1.1, they are still allowed to use regular commands***.  
 **Format:**  
 _(prefix)[command] {user id/mention user}_  
 **Description:**  
 _This command does absolutely nothing other than placing the persons id into a json file._  
 
-### [unblacklist command]
->If the user's id is inside this document in Ver 0.1.1, they are still allowed to use regular commands.
+### [unblacklist]
+>***If the user's id is inside this document in Ver 0.1.1, they are still allowed to use regular commands.***  
 **Format:**  
 _(prefix)[command] {user id/mention user}_  
 **Description:**  
 _This command removes the user's id from the blacklist json file._  
 
-### [logout command]
->This is only available to the owner and can not be used by anyone but the owner.
+### [logout]
+>***This is only available to the owner and can not be used by anyone but the owner.***  
 **Aliases**  
 _{disconnect, close, stopbot}_  
 **Format:**  
@@ -45,22 +45,22 @@ _If the user running the command owns the bot then this will disconnect the bot 
 ## User-Specific Commands
 These commands are made entirely for the user to enjoy. While most of my really fun ones are in a previous version not available for viewing, I will implement these when I begin to organize cogs into the bot. For now, here are a few commands active as of Ver 0.1.1:  
 
-### [hi command]  
-**Aliases**  
+### [hi]  
+>**Aliases**  
 _{hello}_  
 **Format:**  
 _(prefix)[command]_  
 **Description:**  
 _A simple command which says hi to the author._
 
-### [stats command]  
-**Format:**  
+### [stats]  
+>**Format:**  
 _(prefix)[command]_  
 **Description:**  
 _A useful command that displays bot statistics._
 
-### [echo command]  
-**Format:**  
+### [echo]  
+>**Format:**  
 _(prefix)[command] {message}_  
 **Description:**  
 _A simple command that repeats the users input back to them._
