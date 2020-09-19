@@ -7,7 +7,7 @@ Since this is a new bot with no real method to organize commands right now, most
 ## Owner-Specific Commands
 ### While few in numbers these do exist:
 
-#### blacklist command
+#### [Blacklist Command]
 **Format:**  
 _(prefix)[command] {user id/mention user}_  
 **Description:**  
@@ -15,7 +15,7 @@ _This command does absolutely nothing other than placing the persons id into a j
 
 ***If the user's id is inside this document in Ver 0.1.1, they are still allowed to use regular commands.***
 
-#### unblacklist command  
+#### [Unblacklist Command]  
 **Format:**  
 _(prefix)[command] {user id/mention user}_  
 **Description:**  
