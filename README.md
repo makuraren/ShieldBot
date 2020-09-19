@@ -5,8 +5,8 @@
 # Info
 Since my journey in learning python began with a single college class, I took the liberty in making a new discord bot with a language I feel more comfortable with. Discord.py at least in my opinion works so much better than Discord.js since the ping in between events is insanely low. I hope this bot can one day be full of commands and little nifty tools for gamers and casual chatties can enjoy.
 # Tasks
-- [ ] make cogs for command handlers
-- [ ] make cogs for event handlers
+- [x] make cogs for command handlers
+- [x] make cogs for event handlers
 - [x] figure out how to hide the key more efficiently
 - [x] modify the debugger menu
 - [ ] offer more moderation control when more aggressive commands are made
