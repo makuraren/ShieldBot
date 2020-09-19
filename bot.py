@@ -101,7 +101,7 @@ async def _hi(ctx):
 @client.command()
 async def stats(ctx):
     """
-    A usefull command that displays bot statistics.
+    A useful command that displays bot statistics.
     """
     pythonVersion = platform.python_version()
     dpyVersion = discord.__version__
