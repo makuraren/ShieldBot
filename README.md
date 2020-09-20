@@ -1,6 +1,6 @@
 # ShieldBot for Discord
 
-![ShieldBot Logo](/docs/bot.py)
+![ShieldBot Logo](bot.py)
 
 [click to add me to your discord server](https://discord.com/api/oauth2/authorize?client_id=754876371829784717&permissions=8&scope=bot)
 
@@ -9,8 +9,17 @@
 * [Info]()
 * [Commands]()
     * [Fun Commands]()
+        * [[hi]]()
+        * [[echo]]()
+        * [[8ball]]()
     * [Info Commands]()
+        * [[stats]]()
     * [Private Commands]()
+        * [[blacklist]]()
+        * [[unblacklist]]()
+        * [[logout]]()
+        * [[clear]]()
+        * [[prefix]]()
 * [Tasks]()
 * [Contact Info]()
     * [Email]()
@@ -22,9 +31,6 @@ Since my journey in learning python began with a single college class, I took th
 
 # Commands
 Since this is a new bot with no real method to organize commands right now, most commands are simple and not threatening right now. Keep in mind as I grow this list I will add specific notes to ensure these commands will not fall into the wrong hands.
-
-## User-Specific Commands
-These commands are made entirely for the user to enjoy. While most of my really fun ones are in a previous version not available for viewing, I will implement these when I begin to organize cogs into the bot. For now, here are a few commands active as of Ver 0.1.1:  
 
 ## Fun Commands
 
