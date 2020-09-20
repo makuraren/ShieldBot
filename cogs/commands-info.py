@@ -31,7 +31,7 @@ class Info(commands.Cog):
         embed.add_field(name = 'Discord.py Version', value = dpyVersion)
         embed.add_field(name = 'Total Guilds:', value = serverCount)
         embed.add_field(name = 'Total Users:', value = memberCount)
-        embed.add_field(name = 'Bot\'s Father:', value = "<@300251178107928576>")
+        embed.add_field(name = 'Bot Owner:', value = "<@300251178107928576>")
 
         embed.set_footer(text = f"{self.client.user.name} | {self.client.user.id}")
         embed.set_author(name = self.client.user.name, icon_url = self.client.user.avatar_url)

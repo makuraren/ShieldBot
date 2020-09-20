@@ -8,13 +8,22 @@ import logging # For loggin
 import datetime
 import os
 
+import cogs._json
+
 cwd = Path(__file__).parents[0]
 cwd = str(cwd)
 print(f"{cwd}\n-----")
 
+def get_prefix(client, message):
+    data = cogs._json.read_json('prefixes')
+    if not str(message.guild.id) in data:
+        return commands.when_mentioned_or('-')(client, message)
+    return commands.when_mentioned_or(data[str(message.guild.id)])(client, message)
+
+
 # Defining a few things
 secret_file = json.load(open(cwd+'/client_config/secrets.json'))
-client = commands.Bot(command_prefix='.', case_insensitive=True, owner_id = 300251178107928576)
+client = commands.Bot(command_prefix=get_prefix, case_insensitive=True, owner_id = 300251178107928576)
 client.config_token = secret_file['token']
 logging.basicConfig(level=logging.INFO)
 
@@ -47,19 +56,30 @@ client.color_list = [c for c in client.colors.values()]
 
 @client.event
 async def on_ready():
-    print(f"-----\nLogged in as: {client.user.name} <@{client.user.id}>\n-----\nMy current prefix is: .\n-----")
-    await client.change_presence(activity=discord.Game(name=f"\"Don'\t hurt me\" -{client.user.name}")) # This changes the bots 'activity'
+    print(f"-----\nLogged in as: {client.user.name} <@{client.user.id}>\n-----\nMy current prefix is: -\n-----")
+    await client.change_presence(activity=discord.Game(name=f"\"Haha code go boom!\" -{client.user.name}")) # This changes the bots 'activity'
 
 @client.event
 async def on_message(message):
-    #Ignore ourselves
+    # Ignore ourselves
     if message.author.id == client.user.id:
         return
 
-    #Blacklist system
+    # A way to blacklist users from the bot by not processing commands
     if message.author.id in client.blacklisted_users:
         return
 
+    # Whenevver the bot is tagged, respond with its prefix
+    if f"<@!{client.user.id}>" in message.content:
+        data = cogs._json.read_json('prefixes')
+        if str(message.guild.id) in data:
+            prefix = data[str(message.guild.id)]
+        else:
+            prefix = '-'
+        prefixMsg = await message.channel.send(f"My prefix here is `{prefix}`")
+        await prefixMsg.add_reaction('👀')
+
+    # returns message to user if messaged help
     if message.content.lower().startswith("help"):
         await message.channel.send("Hey! Why don't you run the help command with `-help`")
 

@@ -60,5 +60,18 @@ class Private(commands.Cog):
         cogs._json.write_json(data, "blacklist")
         await ctx.send(f"Hey, I have unblacklisted {user.name} for you.")
 
+    @commands.command()
+    @commands.is_owner()
+    #@commands.has_permissions(administrator=True)
+    @commands.cooldown(1, 5, commands.BucketType.guild)
+    async def prefix(self, ctx, *, pre='-'):
+        """
+        Set a custom prefix for a guild
+        """
+        data = cogs._json.read_json('prefixes')
+        data[str(ctx.message.guild.id)] = pre
+        cogs._json.write_json(data, 'prefixes')
+        await ctx.send(f"The guild prefix has been set to `{pre}`. Use `{pre}prefix <prefix>` to change it again!")
+
 def setup(client):
     client.add_cog(Private(client))
