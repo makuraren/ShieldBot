@@ -38,5 +38,13 @@ class Info(commands.Cog):
 
         await ctx.send(embed = embed)
 
+    @commands.command()
+    async def directory(self):
+        """
+        Grabs README.md from directory
+        """
+        dir_link = "https://makuraren.github.io/ShieldBot/"
+        await ctx.send(f'The directory can be found on this cite:\n{dir_link}')
+
 def setup(client):
     client.add_cog(Info(client))

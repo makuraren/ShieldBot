@@ -9,6 +9,7 @@
         * [[8ball]](https://github.com/makuraren/ShieldBot/blob/master/README.md#8ball)
     * [Info Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#info-commands)
         * [[stats]](https://github.com/makuraren/ShieldBot/blob/master/README.md#stats)
+        * [[directory]](https://github.com/makuraren/ShieldBot/blob/master/README.md#directory)
     * [Private Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#private-commands)
         * [[blacklist]](https://github.com/makuraren/ShieldBot/blob/master/README.md#blacklist)
         * [[unblacklist]](https://github.com/makuraren/ShieldBot/blob/master/README.md#unblacklist)
@@ -60,6 +61,12 @@ _A command that provides you a 8ball response to a question._
 _(prefix)[command]_  
 **Description:**  
 _A useful command that displays bot statistics._
+
+### [directory]
+>**Format:**  
+_(prefix)[command]_  
+**Description:**  
+_Grabs README.md from directory._
 
 ## Private Commands
 
