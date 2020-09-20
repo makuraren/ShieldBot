@@ -1,6 +1,6 @@
 # ShieldBot for Discord
 
-![ShieldBot Logo](bot.py)
+![ShieldBot Logo](/docs/bot_resize.png)
 
 [click to add me to your discord server](https://discord.com/api/oauth2/authorize?client_id=754876371829784717&permissions=8&scope=bot)
 
