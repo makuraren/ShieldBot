@@ -39,7 +39,7 @@ class Info(commands.Cog):
         await ctx.send(embed = embed)
 
     @commands.command()
-    async def directory(self):
+    async def directory(self, ctx):
         """
         Grabs README.md from directory
         """

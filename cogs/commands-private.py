@@ -25,12 +25,13 @@ class Private(commands.Cog):
 
     @commands.command(aliases = ['purge'])
     @commands.is_owner()
-    async def clear(ctx, *, amount):
+    async def clear(self, ctx, *, amount):
         """
         Clears messages {owner only}
         """
-        await ctx.channel.purge(limit = 1)
-        await ctx.channel.purge(limit = int(amount))
+        num = int(amount) + 1
+        # await ctx.channel.purge(limit = 1)
+        await ctx.channel.purge(limit = num)
 
     @commands.command()
     @commands.is_owner()
