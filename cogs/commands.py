@@ -53,14 +53,51 @@ class Commands(commands.Cog):
         await ctx.message.delete()
         await ctx.send(message)
 
+    @commands.command(aliases=['8ball', 'test'])
+    async def _8ball(self, ctx, *, question):
+        """
+        A command that provides you a 8ball response to a question.
+        """
+        responses = ['It is certain.',
+                     'It is decidedly so.',
+                     'Without a doubt.',
+                     'Yes - definitely.',
+                     'You may rely on it.',
+                     'As I see it, yes.',
+                     'Most likely.',
+                     'Outlook good.',
+                     'Yes.',
+                     'Signs point to yes.',
+                     'Reply hazy, try again.',
+                     'Ask again later.',
+                     'Better not tell you now.',
+                     'Cannot predict now.',
+                     'Concentrate and ask again.',
+                     'Don\'t count on it.',
+                     'My reply is no.',
+                     'My sources say no.',
+                     'Outlook not so good.',
+                     'Very doubtful.']
+        await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
+
+
     @commands.command(aliases = ['disconnect', 'close', 'stopbot'])
     @commands.is_owner()
     async def logout(self, ctx):
         """
-        If the user running the command owns the bot then this will disconnect the bot from discord.
+        Turns off bot {owner only}
         """
         await ctx.send(f"Hey {ctx.author.mention}, I am now logging out :wave:")
         await self.client.logout()
+
+    @commands.command(aliases = ['purge'])
+    @commands.is_owner()
+    async def clear(ctx, *, amount):
+        """
+        Clears messages {owner only}
+        """
+        await ctx.channel.purge(limit = 1)
+        await ctx.channel.purge(limit = int(amount))
 
     @commands.command()
     @commands.is_owner()
