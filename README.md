@@ -1,12 +1,7 @@
-# ShieldBot for Discord
-
+# ShieldBot Directory
 ![ShieldBot Logo](/docs/bot_resize.png)
-
-[click to add me to your discord server](https://discord.com/api/oauth2/authorize?client_id=754876371829784717&permissions=8&scope=bot)
-
-# Directory
-
 * [Info](https://github.com/makuraren/ShieldBot/blob/master/README.md#info)
+* [Invite Information](https://github.com/makuraren/ShieldBot/blob/master/README.md#invite-information)
 * [Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#commands)
     * [Fun Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#fun-commands)
         * [[hi]](https://github.com/makuraren/ShieldBot/blob/master/README.md#hi)
@@ -25,9 +20,13 @@
     * [Email](https://github.com/makuraren/ShieldBot/blob/master/README.md#email)
     * [Discord ID](https://github.com/makuraren/ShieldBot/blob/master/README.md#discord-id)
 
-
 # Info
 Since my journey in learning python began with a single college class, I took the liberty in making a new discord bot with a language I feel more comfortable with. Discord.py at least in my opinion works so much better than Discord.js since the ping in between events is insanely low. I hope this bot can one day be full of commands and little nifty tools for gamers and casual chatties can enjoy.
+
+# Invite Information
+By clicking this link, you will be prompted to have the bot join your server.
+
+_[click to add me to your discord server](https://discord.com/api/oauth2/authorize?client_id=754876371829784717&permissions=8&scope=bot)_
 
 # Commands
 Since this is a new bot with no real method to organize commands right now, most commands are simple and not threatening right now. Keep in mind as I grow this list I will add specific notes to ensure these commands will not fall into the wrong hands.
