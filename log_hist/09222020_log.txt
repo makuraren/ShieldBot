@@ -1,0 +1,327 @@
+Microsoft Windows [Version 10.0.19041.508]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\wildc>cd C:\Users\wildc\Documents\GitHub\ShieldBot
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-j028",{"micros":181854,"calls":["discord-sessions-prd-1-14",{"micros":179944,"calls":["start_session",{"micros":160062,"calls":["api-prd-main-3znx",{"micros":156899,"calls":["get_user",{"micros":6268},"add_authorized_ip",{"micros":14670},"get_guilds",{"micros":13820},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":2284,"calls":[]}]}]}] (Session ID: fbc012019ca42e3d89cab4a333c3a761).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Commands-fun Cog had been loaded
+-----
+Commands-info Cog had been loaded
+-----
+Commands-private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+WARNING:discord.gateway:Shard ID None has stopped responding to the gateway. Closing and restarting.
+INFO:discord.gateway:Timed out receiving packet. Attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.client:Got a request to IDENTIFY the websocket.
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 3 tasks.
+ERROR:discord.gateway:An error occurred while stopping the gateway. Ignoring.
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 97, in run
+    f.result()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\_base.py", line 437, in result
+    raise CancelledError()
+concurrent.futures._base.CancelledError
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x037BDF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-97qw",{"micros":81589,"calls":["discord-sessions-prd-1-39",{"micros":80147,"calls":["start_session",{"micros":74352,"calls":["api-prd-main-hkcm",{"micros":71909,"calls":["get_user",{"micros":3622},"add_authorized_ip",{"micros":6457},"get_guilds",{"micros":2889},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":11,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 88693d6fd3c99c2539f5ad2060964c3b).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Commands-fun Cog had been loaded
+-----
+Commands-info Cog had been loaded
+-----
+Commands-private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 88693d6fd3c99c2539f5ad2060964c3b under trace ["gateway-prd-main-dftz",{"micros":3389,"calls":["discord-sessions-prd-1-39",{"micros":22}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 88693d6fd3c99c2539f5ad2060964c3b under trace ["gateway-prd-main-ndb2",{"micros":886,"calls":["discord-sessions-prd-1-39",{"micros":30}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 88693d6fd3c99c2539f5ad2060964c3b under trace ["gateway-prd-main-rmkf",{"micros":4546,"calls":["discord-sessions-prd-1-39",{"micros":14}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 88693d6fd3c99c2539f5ad2060964c3b under trace ["gateway-prd-main-ndb2",{"micros":1460,"calls":["discord-sessions-prd-1-39",{"micros":32}]}].
+WARNING:discord.gateway:Shard ID None has stopped responding to the gateway. Closing and restarting.
+INFO:discord.gateway:Timed out receiving packet. Attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 88693d6fd3c99c2539f5ad2060964c3b under trace ["gateway-prd-main-6c0l",{"micros":2734,"calls":["discord-sessions-prd-1-39",{"micros":77}]}].
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-zbh5",{"micros":100778,"calls":["discord-sessions-prd-1-40",{"micros":99106,"calls":["start_session",{"micros":42666,"calls":["api-prd-main-dmbj",{"micros":40141,"calls":["get_user",{"micros":2530},"add_authorized_ip",{"micros":1495},"get_guilds",{"micros":4264},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":30809,"calls":[]}]}]}] (Session ID: 98bb69876b42d426d3050f8ce68b8de2).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Commands-fun Cog had been loaded
+-----
+Commands-info Cog had been loaded
+-----
+Commands-private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-kpv7",{"micros":1143,"calls":["discord-sessions-prd-1-40",{"micros":17}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-kbdt",{"micros":8894,"calls":["discord-sessions-prd-1-40",{"micros":14}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-4fd5",{"micros":1028,"calls":["discord-sessions-prd-1-40",{"micros":17}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-s26j",{"micros":5364,"calls":["discord-sessions-prd-1-40",{"micros":11}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-3224",{"micros":770,"calls":["discord-sessions-prd-1-40",{"micros":22}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-bvt1",{"micros":1558,"calls":["discord-sessions-prd-1-40",{"micros":16}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-4869",{"micros":2892,"calls":["discord-sessions-prd-1-40",{"micros":16}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-wrr3",{"micros":3386,"calls":["discord-sessions-prd-1-40",{"micros":14}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-tm3d",{"micros":2082,"calls":["discord-sessions-prd-1-40",{"micros":24}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-7sss",{"micros":10027,"calls":["discord-sessions-prd-1-40",{"micros":11}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-ll5w",{"micros":2580,"calls":["discord-sessions-prd-1-40",{"micros":17}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-82v6",{"micros":9748,"calls":["discord-sessions-prd-1-40",{"micros":41}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 98bb69876b42d426d3050f8ce68b8de2 under trace ["gateway-prd-main-c9tc",{"micros":1699,"calls":["discord-sessions-prd-1-40",{"micros":27}]}].
+INFO:discord.gateway:Websocket closed with 1001, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.client:Got a request to IDENTIFY the websocket.
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 2 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0366DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py\
+'bot.py\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py\
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-cdnd",{"micros":83775,"calls":["discord-sessions-prd-1-19",{"micros":80274,"calls":["start_session",{"micros":62267,"calls":["api-prd-main-cgfq",{"micros":59410,"calls":["get_user",{"micros":4381},"add_authorized_ip",{"micros":2367},"get_guilds",{"micros":9707},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":9,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 4e5ecb5b03be2671c76d714a1d8d28f1).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Commands-fun Cog had been loaded
+-----
+Commands-info Cog had been loaded
+-----
+Commands-private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4e5ecb5b03be2671c76d714a1d8d28f1 under trace ["gateway-prd-main-s26j",{"micros":9684,"calls":["discord-sessions-prd-1-19",{"micros":41}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4e5ecb5b03be2671c76d714a1d8d28f1 under trace ["gateway-prd-main-662z",{"micros":2033,"calls":["discord-sessions-prd-1-19",{"micros":17}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4e5ecb5b03be2671c76d714a1d8d28f1 under trace ["gateway-prd-main-8cvd",{"micros":4378,"calls":["discord-sessions-prd-1-19",{"micros":27}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4e5ecb5b03be2671c76d714a1d8d28f1 under trace ["gateway-prd-main-j3qr",{"micros":1701,"calls":["discord-sessions-prd-1-19",{"micros":25}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4e5ecb5b03be2671c76d714a1d8d28f1 under trace ["gateway-prd-main-c9l3",{"micros":3878,"calls":["discord-sessions-prd-1-19",{"micros":36}]}].
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-ftqk",{"micros":59018,"calls":["discord-sessions-prd-2-47",{"micros":57186,"calls":["start_session",{"micros":44347,"calls":["api-prd-main-jj31",{"micros":41976,"calls":["get_user",{"micros":4010},"add_authorized_ip",{"micros":1630},"get_guilds",{"micros":4183},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":4301,"calls":[]}]}]}] (Session ID: c0ec11a4023016953830d3b823631fa2).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Commands-fun Cog had been loaded
+-----
+Commands-info Cog had been loaded
+-----
+Commands-private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:Closing the event loop.
+Traceback (most recent call last):
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 94, in <module>
+    client.run(client.config_token)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 674, in run
+    _cleanup_loop(loop)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 93, in _cleanup_loop
+    _cancel_tasks(loop)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 78, in _cancel_tasks
+    loop.run_until_complete(asyncio.gather(*tasks, return_exceptions=True))
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 430, in select
+    self._poll(timeout)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 779, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0320DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0320DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+RuntimeError: Event loop is closed
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Client.run.<locals>.runner() running at C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py:660> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x03AF3F10>()]> cb=[gather.<locals>._done_callback() at C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py:758]>
+^C
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>

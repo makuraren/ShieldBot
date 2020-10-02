@@ -12,7 +12,7 @@ class Fun(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print("Commands-fun Cog had been loaded\n-----")
+        print(f"{self.__class__.__name__} Cog had been loaded\n-----")
 
     @commands.command(name='hi', aliases=['hello'])
     async def _hi(self, ctx):

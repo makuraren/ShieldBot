@@ -12,7 +12,7 @@ class Info(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print("Commands-info Cog had been loaded\n-----")
+        print(f"{self.__class__.__name__} Cog had been loaded\n-----")
 
     @commands.command()
     async def stats(self, ctx):

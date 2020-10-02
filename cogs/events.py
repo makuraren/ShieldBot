@@ -13,13 +13,13 @@ class Events(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print("Events Cog had been loaded\n-----")
+        print(f"{self.__class__.__name__} Cog had been loaded\n-----")
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        channel = discord.utils.get(member.guild.text_channels, name = 'general')
+        channel = discord.utils.get(member.guild.text_channels, name = 'welcome')
         if channel:
-            embed = discord.Embed(description = 'Welcome to our guild!', color = random.choice(self.client.color_list))
+            embed = discord.Embed(description = f'Welcome to {member.guild}!', color = random.choice(self.client.color_list))
             embed.set_thumbnail(url = member.avatar_url)
             embed.set_author(name = member.name, icon_url = member.avatar_url)
             embed.set_footer(text = member.guild, icon_url = member.guild.icon_url)
@@ -29,7 +29,7 @@ class Events(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
-        channel = discord.utils.get(member.guild.text_channels, name = 'general')
+        channel = discord.utils.get(member.guild.text_channels, name = 'welcome')
         if channel:
             embed = discord.Embed(description = 'Goodbye from all of us..', color = random.choice(self.client.color_list))
             embed.set_thumbnail(url = member.avatar_url)

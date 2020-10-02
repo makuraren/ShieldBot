@@ -10,12 +10,16 @@
     * [Info Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#info-commands)
         * [[stats]](https://github.com/makuraren/ShieldBot/blob/master/README.md#stats)
         * [[directory]](https://github.com/makuraren/ShieldBot/blob/master/README.md#directory)
+    * [Moderation Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#moderation-commands)
+        * [[clear]](https://github.com/makuraren/ShieldBot/blob/master/README.md#clear)
+        * [[kick]](https://github.com/makuraren/ShieldBot/blob/master/README.md#kick)
+        * [[ban]](https://github.com/makuraren/ShieldBot/blob/master/README.md#ban)
+        * [[unban]](https://github.com/makuraren/ShieldBot/blob/master/README.md#unban)
+        * [[prefix]](https://github.com/makuraren/ShieldBot/blob/master/README.md#prefix)
     * [Private Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#private-commands)
         * [[blacklist]](https://github.com/makuraren/ShieldBot/blob/master/README.md#blacklist)
         * [[unblacklist]](https://github.com/makuraren/ShieldBot/blob/master/README.md#unblacklist)
         * [[logout]](https://github.com/makuraren/ShieldBot/blob/master/README.md#logout)
-        * [[clear]](https://github.com/makuraren/ShieldBot/blob/master/README.md#clear)
-        * [[prefix]](https://github.com/makuraren/ShieldBot/blob/master/README.md#prefix)
 * [Tasks](https://github.com/makuraren/ShieldBot/blob/master/README.md#tasks)
 * [Contact Info](https://github.com/makuraren/ShieldBot/blob/master/README.md#contact-information)
     * [Email](https://github.com/makuraren/ShieldBot/blob/master/README.md#email)
@@ -68,6 +72,45 @@ _(prefix)[command]_
 **Description:**  
 _Grabs README.md from directory._
 
+## Moderation Commands
+
+### [clear]
+>***This will only be available to administrators.***  
+**Aliases**  
+_{purge}_  
+**Format:**  
+_(prefix)[command] (num)_  
+**Description:**  
+_Clears messages_  
+
+### [kick]
+>***This will only be available to administrators.***  
+**Format:**  
+_(prefix)[command] (user) (reason)_  
+**Description:**  
+_A command that kicks a user_  
+
+### [ban]
+>***This will only be available to administrators.***  
+**Format:**  
+_(prefix)[command] (user) (reason)_  
+**Description:**  
+_A command that bans a user_  
+
+### [ban]
+>***This will only be available to administrators.***  
+**Format:**  
+_(prefix)[command] (user) (reason)_  
+**Description:**  
+_A command that unbans a user_  
+
+### [prefix]
+>***This will only be available to administrators.***  
+**Format:**  
+_(prefix)[command] (new prefix)_  
+**Description:**  
+_Set a custom prefix for a guild_  
+
 ## Private Commands
 
 ### [blacklist]
@@ -93,24 +136,11 @@ _(prefix)[command]_
 **Description:**  
 _Turns off bot_
 
-### [clear]
->***This will only be available to the owner and can not be used by anyone but the owner.***  
-**Aliases**  
-_{purge}_  
-**Format:**  
-_(prefix)[command] (num)_  
-**Description:**  
-_Clears messages_
-
-### [prefix]
->***This will only be available to the owner and can not be used by anyone but the owner.***  
-**Format:**  
-_(prefix)[command] (new prefix)_  
-**Description:**  
-_Set a custom prefix for a guild_  
-
 # Tasks
-- [ ] offer more moderation control when more aggressive commands are made
+- [x] offer more moderation control when more aggressive commands are made
+- [ ] develop music bot formatting
+- [ ] develop more fun commands
+- [ ] make a log command
 
 # Contact Information
 If you have any inquires or recommendations on what I should do, feel free to send me a message and I will add that to my tasks. This is suppose to be a fun project to keep my free time manageable.
