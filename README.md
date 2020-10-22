@@ -12,6 +12,7 @@
         * [[directory]](https://github.com/makuraren/ShieldBot/blob/master/README.md#directory)
     * [Moderation Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#moderation-commands)
         * [[clear]](https://github.com/makuraren/ShieldBot/blob/master/README.md#clear)
+        * [[lockdown]](https://github.com/makuraren/ShieldBot/blob/master/README.md#lockdown)
         * [[kick]](https://github.com/makuraren/ShieldBot/blob/master/README.md#kick)
         * [[ban]](https://github.com/makuraren/ShieldBot/blob/master/README.md#ban)
         * [[unban]](https://github.com/makuraren/ShieldBot/blob/master/README.md#unban)
@@ -20,6 +21,9 @@
         * [[blacklist]](https://github.com/makuraren/ShieldBot/blob/master/README.md#blacklist)
         * [[unblacklist]](https://github.com/makuraren/ShieldBot/blob/master/README.md#unblacklist)
         * [[logout]](https://github.com/makuraren/ShieldBot/blob/master/README.md#logout)
+    * [Utility Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#utility-commands)
+        * [[build]](https://github.com/makuraren/ShieldBot/blob/master/README.md#build)
+        * [[delete]](https://github.com/makuraren/ShieldBot/blob/master/README.md#delete)
 * [Resources](https://github.com/makuraren/ShieldBot/blob/master/README.md#resources)
 * [Tasks](https://github.com/makuraren/ShieldBot/blob/master/README.md#tasks)
 * [Contact Info](https://github.com/makuraren/ShieldBot/blob/master/README.md#contact-information)
@@ -136,6 +140,26 @@ _{disconnect, close, stopbot}_
 _(prefix)[command]_  
 **Description:**  
 _Turns off bot_
+
+## Utility Commands
+
+### [build]
+>***This will only be available to administrators.***  
+**Server Items:**  
+_*Channel, Category*_  
+**Format:**  
+_(prefix)[command] (server item) (role) (name)_  
+**Description:**  
+_This builds items in the server_  
+
+### [delete]
+>***This will only be available to administrators.***  
+**Server Items:**  
+_*Channel, Category*_  
+**Format:**  
+_(prefix)[command] (server item) (name) (reason)_  
+**Description:**  
+_This deletes items in the server_  
 
 # Resources
 I have to give a special thanks to the people over at MenuDocs with their Discord.py tutorial videos to help me get started. Please go check them out and their work here:  
