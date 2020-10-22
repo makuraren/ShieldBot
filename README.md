@@ -21,6 +21,7 @@
         * [[unblacklist]](https://github.com/makuraren/ShieldBot/blob/master/README.md#unblacklist)
         * [[logout]](https://github.com/makuraren/ShieldBot/blob/master/README.md#logout)
 * [Tasks](https://github.com/makuraren/ShieldBot/blob/master/README.md#tasks)
+* [Resources](https://github.com/makuraren/ShieldBot/blob/master/README.md#resources)
 * [Contact Info](https://github.com/makuraren/ShieldBot/blob/master/README.md#contact-information)
     * [Email](https://github.com/makuraren/ShieldBot/blob/master/README.md#email)
     * [Discord ID](https://github.com/makuraren/ShieldBot/blob/master/README.md#discord-id)
@@ -135,6 +136,11 @@ _{disconnect, close, stopbot}_
 _(prefix)[command]_  
 **Description:**  
 _Turns off bot_
+
+# Resources
+I have to give a special thanks to the people over at MenuDocs with their Discord.py tutorial videos to help me get started. Please go check them out and their work here:
+*YouTube: https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA*
+*GitHub: https://github.com/MenuDocs*
 
 # Tasks
 - [x] offer more moderation control when more aggressive commands are made
