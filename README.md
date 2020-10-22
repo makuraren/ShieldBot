@@ -163,8 +163,8 @@ _This deletes items in the server_
 
 # Resources
 I have to give a special thanks to the people over at MenuDocs with their Discord.py tutorial videos to help me get started. Please go check them out and their work here:  
-*YouTube: https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA*  
-*GitHub: https://github.com/MenuDocs*  
+*YouTube: [https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA](https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA)*  
+*GitHub: [https://github.com/MenuDocs](https://github.com/MenuDocs)*  
 
 # Tasks
 - [x] offer more moderation control when more aggressive commands are made
