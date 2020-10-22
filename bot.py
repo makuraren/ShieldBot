@@ -27,7 +27,7 @@ client = commands.Bot(command_prefix=get_prefix, case_insensitive=True, owner_id
 client.config_token = secret_file['token']
 logging.basicConfig(level=logging.INFO)
 
-client.version = '0.2.0'
+client.version = '0.2.4'
 
 client.blacklisted_users = []
 
@@ -57,7 +57,7 @@ client.color_list = [c for c in client.colors.values()]
 @client.event
 async def on_ready():
     print(f"-----\nLogged in as: {client.user.name} <@{client.user.id}>\n-----\nMy current prefix is: -\n-----")
-    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.listening, name = f"\"Haha code go boom!\" -{client.user.name}")) # This changes the bots 'activity'
+    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.listening, name = f"\"Boom!\" -{client.user.name}")) # This changes the bots 'activity'
 
 @client.event
 async def on_message(message):
