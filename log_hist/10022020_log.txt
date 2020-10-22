@@ -1,0 +1,1503 @@
+Microsoft Windows [Version 10.0.19041.508]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\wildc>cd C:\Users\wildc\Documents\GitHub\ShieldBot
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-drxj",{"micros":56428,"calls":["discord-sessions-prd-2-54",{"micros":54798,"calls":["start_session",{"micros":43347,"calls":["api-prd-main-cm99",{"micros":39952,"calls":["get_user",{"micros":2191},"add_authorized_ip",{"micros":1523},"get_guilds",{"micros":7556},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":2274,"calls":[]}]}]}] (Session ID: a4d451ad62e48daebf69ecdc131478c7).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Commands-fun Cog had been loaded
+-----
+Commands-info Cog had been loaded
+-----
+Commands-private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session a4d451ad62e48daebf69ecdc131478c7 under trace ["gateway-prd-main-d5fj",{"micros":4176,"calls":["discord-sessions-prd-2-54",{"micros":26}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session a4d451ad62e48daebf69ecdc131478c7 under trace ["gateway-prd-main-59ft",{"micros":5165,"calls":["discord-sessions-prd-2-54",{"micros":16}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session a4d451ad62e48daebf69ecdc131478c7 under trace ["gateway-prd-main-8mwj",{"micros":2986,"calls":["discord-sessions-prd-2-54",{"micros":32}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session a4d451ad62e48daebf69ecdc131478c7 under trace ["gateway-prd-main-4869",{"micros":1163,"calls":["discord-sessions-prd-2-54",{"micros":26}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session a4d451ad62e48daebf69ecdc131478c7 under trace ["gateway-prd-main-03dm",{"micros":6028,"calls":["discord-sessions-prd-2-54",{"micros":24}]}].
+INFO:discord.gateway:Websocket closed with 1001, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session a4d451ad62e48daebf69ecdc131478c7 under trace ["gateway-prd-main-kbdt",{"micros":4960,"calls":["discord-sessions-prd-2-54",{"micros":62}]}].
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-5g7m",{"micros":73590,"calls":["discord-sessions-prd-2-36",{"micros":71076,"calls":["start_session",{"micros":37767,"calls":["api-prd-main-582w",{"micros":33446,"calls":["get_user",{"micros":6252},"add_authorized_ip",{"micros":1442},"get_guilds",{"micros":4436},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":23707,"calls":[]}]}]}] (Session ID: d9020797c8e5e65d8a9562ba29f7c145).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-0btq",{"micros":79997,"calls":["discord-sessions-prd-2-39",{"micros":78192,"calls":["start_session",{"micros":39134,"calls":["api-prd-main-r4ks",{"micros":34669,"calls":["get_user",{"micros":3281},"add_authorized_ip",{"micros":1637},"get_guilds",{"micros":1584},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":11,"calls":[]},"presence_connect",{"micros":10928,"calls":[]}]}]}] (Session ID: 978c9a8d950b08e77325728bb8f79bcf).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 847, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 776, in prepare
+    if not await self.can_run(ctx):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 1069, in can_run
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\utils.py", line 338, in async_all
+    for elem in gen:
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 1069, in <genexpr>
+    return await discord.utils.async_all(predicate(ctx) for predicate in predicates)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 1747, in predicate
+    raise MissingPermissions(missing)
+discord.ext.commands.errors.MissingPermissions: You are missing Administrator permission(s) to run this command.
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0372DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0372DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-4869",{"micros":68883,"calls":["discord-sessions-prd-1-51",{"micros":65725,"calls":["start_session",{"micros":52625,"calls":["api-prd-main-q2j6",{"micros":45106,"calls":["get_user",{"micros":3931},"add_authorized_ip",{"micros":3084},"get_guilds",{"micros":3478},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 9df775a53825cc7c9a80846b6b3ec1b4).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-f6lg",{"micros":40348,"calls":["discord-sessions-prd-2-55",{"micros":38018,"calls":["start_session",{"micros":32182,"calls":["api-prd-main-shp3",{"micros":28747,"calls":["get_user",{"micros":2498},"add_authorized_ip",{"micros":1812},"get_guilds",{"micros":1621},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":1768,"calls":[]}]}]}] (Session ID: c5ebcefe7aa4ac6b2da27394f03cc434).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-private.py", line 73, in kick
+    embed = discord.Embed(title = f"{ctx.author.name} kicked: {member.name}", color = red)
+NameError: name 'red' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'red' is not defined
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-3mm3",{"micros":47427,"calls":["discord-sessions-prd-2-4",{"micros":46258,"calls":["start_session",{"micros":35735,"calls":["api-prd-main-bjq8",{"micros":31917,"calls":["get_user",{"micros":2591},"add_authorized_ip",{"micros":2302},"get_guilds",{"micros":3445},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":10,"calls":[]},"presence_connect",{"micros":7980,"calls":[]}]}]}] (Session ID: e718b8f976287258050e5a220360d70b).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-private.py", line 73, in kick
+    embed = discord.Embed(title = f"{ctx.author.name} kicked: {member.name}", color = '0xff0000')
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\embeds.py", line 113, in __init__
+    self.colour = colour
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\embeds.py", line 210, in colour
+    raise TypeError('Expected discord.Colour, int, or Embed.Empty but received %s instead.' % value.__class__.__name__)
+TypeError: Expected discord.Colour, int, or Embed.Empty but received str instead.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Expected discord.Colour, int, or Embed.Empty but received str instead.
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x03B9DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x03B9DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-16dl",{"micros":74770,"calls":["discord-sessions-prd-1-44",{"micros":69945,"calls":["start_session",{"micros":55351,"calls":["api-prd-main-rtd9",{"micros":48597,"calls":["get_user",{"micros":6817},"add_authorized_ip",{"micros":2151},"get_guilds",{"micros":2994},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: b5aa94e440c30ef115dd686e740ddb6c).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-private.py", line 73, in kick
+    embed = discord.Embed(title = f"{ctx.author.name} kicked: {member.name}", colour = '0xff0000')
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\embeds.py", line 113, in __init__
+    self.colour = colour
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\embeds.py", line 210, in colour
+    raise TypeError('Expected discord.Colour, int, or Embed.Empty but received %s instead.' % value.__class__.__name__)
+TypeError: Expected discord.Colour, int, or Embed.Empty but received str instead.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Expected discord.Colour, int, or Embed.Empty but received str instead.
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0327DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-ll5w",{"micros":79309,"calls":["discord-sessions-prd-2-59",{"micros":77487,"calls":["start_session",{"micros":67084,"calls":["api-prd-main-z04j",{"micros":62345,"calls":["get_user",{"micros":4236},"add_authorized_ip",{"micros":3947},"get_guilds",{"micros":2120},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":7,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 0aeec0c9a8821251759402da38a6a4cc).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-mp3q",{"micros":151764,"calls":["discord-sessions-prd-1-19",{"micros":150431,"calls":["start_session",{"micros":134876,"calls":["api-prd-main-1z7v",{"micros":120771,"calls":["get_user",{"micros":7345},"add_authorized_ip",{"micros":9165},"get_guilds",{"micros":6159},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":30,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 41a0e73cfe9df61e684060997d458dcc).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-8mwj",{"micros":112144,"calls":["discord-sessions-prd-1-49",{"micros":108814,"calls":["start_session",{"micros":82631,"calls":["api-prd-main-gdpz",{"micros":78867,"calls":["get_user",{"micros":7297},"add_authorized_ip",{"micros":13201},"get_guilds",{"micros":3801},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":7,"calls":[]},"presence_connect",{"micros":3334,"calls":[]}]}]}] (Session ID: c17262fbc14d7367e8884481fc862bf5).
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 3 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.client:Got a request to IDENTIFY the websocket.
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-60jb",{"micros":98087,"calls":["discord-sessions-prd-1-35",{"micros":96936,"calls":["start_session",{"micros":60668,"calls":["api-prd-main-577x",{"micros":56241,"calls":["get_user",{"micros":9219},"add_authorized_ip",{"micros":1418},"get_guilds",{"micros":4371},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":27667,"calls":[]}]}]}] (Session ID: b0a3707cd4584fccc7a94bbd05b9740e).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-j76d",{"micros":46317,"calls":["discord-sessions-prd-1-8",{"micros":43978,"calls":["start_session",{"micros":32832,"calls":["api-prd-main-0fh4",{"micros":28723,"calls":["get_user",{"micros":2744},"add_authorized_ip",{"micros":1566},"get_guilds",{"micros":3435},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 6e8ba20d55f4d153c55b54f911054af0).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-bpf7",{"micros":142979,"calls":["discord-sessions-prd-2-2",{"micros":138870,"calls":["start_session",{"micros":123700,"calls":["api-prd-main-gh61",{"micros":116263,"calls":["get_user",{"micros":3400},"add_authorized_ip",{"micros":9611},"get_guilds",{"micros":7355},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":14,"calls":[]},"presence_connect",{"micros":5183,"calls":[]}]}]}] (Session ID: a0c240d7da05bbb034429483e095be28).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-kbdt",{"micros":62540,"calls":["discord-sessions-prd-1-53",{"micros":60980,"calls":["start_session",{"micros":31579,"calls":["api-prd-main-fqdb",{"micros":28016,"calls":["get_user",{"micros":2315},"add_authorized_ip",{"micros":1596},"get_guilds",{"micros":1768},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":12,"calls":[]},"presence_connect",{"micros":2780,"calls":[]}]}]}] (Session ID: b42e2468de19c2b17c2e4ffc09c2c55f).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-07k7",{"micros":70751,"calls":["discord-sessions-prd-1-23",{"micros":69483,"calls":["start_session",{"micros":54500,"calls":["api-prd-main-9mkf",{"micros":41403,"calls":["get_user",{"micros":4568},"add_authorized_ip",{"micros":1449},"get_guilds",{"micros":8113},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":8,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 1c67c8b60c61f3cfcf0a543368919390).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 41, in kick
+    \nTime: {datetime.datetime.utcnow()}
+NameError: name 'datetime' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'datetime' is not defined
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x039ADF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x039ADF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-zv73",{"micros":136745,"calls":["discord-sessions-prd-2-59",{"micros":135103,"calls":["start_session",{"micros":96330,"calls":["api-prd-main-pgp2",{"micros":79888,"calls":["get_user",{"micros":8669},"add_authorized_ip",{"micros":7351},"get_guilds",{"micros":5337},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":8332,"calls":[]}]}]}] (Session ID: 8a3f6dd11b149d8adc8e27bf0fb796d7).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 41, in kick
+    \nTime: {datetime.utcnow()}
+NameError: name 'datetime' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'datetime' is not defined
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-kjxg",{"micros":128244,"calls":["discord-sessions-prd-2-58",{"micros":122531,"calls":["start_session",{"micros":106959,"calls":["api-prd-main-9jxb",{"micros":103072,"calls":["get_user",{"micros":5866},"add_authorized_ip",{"micros":6980},"get_guilds",{"micros":7730},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":20,"calls":[]},"presence_connect",{"micros":7176,"calls":[]}]}]}] (Session ID: 2a8ecfbccf7397b95da04597de42a084).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 41, in kick
+    \nTime: {utcnow()}
+NameError: name 'utcnow' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'utcnow' is not defined
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-97qw",{"micros":56757,"calls":["discord-sessions-prd-1-45",{"micros":53379,"calls":["start_session",{"micros":50117,"calls":["api-prd-main-zkgs",{"micros":45130,"calls":["get_user",{"micros":1999},"add_authorized_ip",{"micros":1205},"get_guilds",{"micros":1346},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":103,"calls":[]}]}]}] (Session ID: dfda3b4c417083a7831b8fad8e66a0b1).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 42, in kick
+    \nTime: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+AttributeError: module 'datetime' has no attribute 'now'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: module 'datetime' has no attribute 'now'
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-q4x5",{"micros":83134,"calls":["discord-sessions-prd-2-21",{"micros":82305,"calls":["start_session",{"micros":54966,"calls":["api-prd-main-twvb",{"micros":49426,"calls":["get_user",{"micros":4274},"add_authorized_ip",{"micros":1591},"get_guilds",{"micros":3846},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":319,"calls":[]}]}]}] (Session ID: 579587e4c6afdaa41949028170852a58).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-cj7x",{"micros":94280,"calls":["discord-sessions-prd-1-64",{"micros":93254,"calls":["start_session",{"micros":60426,"calls":["api-prd-main-f736",{"micros":53180,"calls":["get_user",{"micros":3268},"add_authorized_ip",{"micros":2730},"get_guilds",{"micros":4252},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":17834,"calls":[]}]}]}] (Session ID: 6936ee19a8c60983121f97db3d3b1870).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-s5kc",{"micros":54396,"calls":["discord-sessions-prd-1-24",{"micros":52107,"calls":["start_session",{"micros":40317,"calls":["api-prd-main-8q1q",{"micros":34814,"calls":["get_user",{"micros":3006},"add_authorized_ip",{"micros":1760},"get_guilds",{"micros":4987},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":30,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: e9df8b8eee39bc05832a418fcc81c471).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-r310",{"micros":152234,"calls":["discord-sessions-prd-1-67",{"micros":150348,"calls":["start_session",{"micros":133750,"calls":["api-prd-main-9mkf",{"micros":130389,"calls":["get_user",{"micros":2150},"add_authorized_ip",{"micros":8848},"get_guilds",{"micros":74091},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2250,"calls":[]}]}]}] (Session ID: bce31d3e1564d20b3acc92a0e34b1654).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 48, in ban
+    await ctx.guild.ban(user = member, reson = reason)
+TypeError: ban() got an unexpected keyword argument 'reson'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: ban() got an unexpected keyword argument 'reson'
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-zbh5",{"micros":223374,"calls":["discord-sessions-prd-2-25",{"micros":222239,"calls":["start_session",{"micros":206721,"calls":["api-prd-main-36tj",{"micros":199635,"calls":["get_user",{"micros":6925},"add_authorized_ip",{"micros":5370},"get_guilds",{"micros":134618},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":425,"calls":[]}]}]}] (Session ID: 75e5bfdadf4f99ef6e04c4cb09b816d1).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-pncw",{"micros":72738,"calls":["discord-sessions-prd-2-22",{"micros":71796,"calls":["start_session",{"micros":62615,"calls":["api-prd-main-s198",{"micros":53562,"calls":["get_user",{"micros":3904},"add_authorized_ip",{"micros":4489},"get_guilds",{"micros":3656},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: d750ed5cc2fda832b1df5c5e2516e4c4).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 63, in unban
+    await channel.send(f"```yaml\n{ctx.author.name} banned {member.name} from {member.guild}\nReason: {reason}\nTime: {datetime.now().strftime('%m-%d-%Y %H:%M:%S')}\n```")
+AttributeError: 'User' object has no attribute 'guild'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'User' object has no attribute 'guild'
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-ftqk",{"micros":59532,"calls":["discord-sessions-prd-2-38",{"micros":55787,"calls":["start_session",{"micros":31576,"calls":["api-prd-main-zk6w",{"micros":27780,"calls":["get_user",{"micros":2613},"add_authorized_ip",{"micros":1424},"get_guilds",{"micros":1890},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":15198,"calls":[]}]}]}] (Session ID: cab39f7c1fb98f542912d04ccb031160).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x03B5DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-9h3r",{"micros":71874,"calls":["discord-sessions-prd-1-52",{"micros":70903,"calls":["start_session",{"micros":45745,"calls":["api-prd-main-kbz5",{"micros":41825,"calls":["get_user",{"micros":2706},"add_authorized_ip",{"micros":2191},"get_guilds",{"micros":1709},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":7,"calls":[]},"presence_connect",{"micros":18233,"calls":[]}]}]}] (Session ID: da7de26bb5ed657862eb7a4dccf5d27c).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 60, in unban
+    member = await self.client.fetch_user(int(member))
+ValueError: invalid literal for int() with base 10: '<@!548653250371518475>'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ValueError: invalid literal for int() with base 10: '<@!548653250371518475>'
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 63, in unban
+    await channel.send(f"```yaml\n{ctx.author.name} unbanned {member.name} from {member.guild}\nReason: {reason}\nTime: {datetime.now().strftime('%m-%d-%Y %H:%M:%S')}\n```")
+AttributeError: 'User' object has no attribute 'guild'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'User' object has no attribute 'guild'
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0375DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-l95c",{"micros":66031,"calls":["discord-sessions-prd-1-51",{"micros":63323,"calls":["start_session",{"micros":41739,"calls":["api-prd-main-gh61",{"micros":32529,"calls":["get_user",{"micros":3603},"add_authorized_ip",{"micros":1940},"get_guilds",{"micros":1759},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":3920,"calls":[]}]}]}] (Session ID: 234dcdb090606541e26e3edea0d92df1).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 63, in unban
+    await channel.send(f"```yaml\n{ctx.author.name} unbanned <@{member}> from {member.guild}\nReason: {reason}\nTime: {datetime.now().strftime('%m-%d-%Y %H:%M:%S')}\n```")
+AttributeError: 'User' object has no attribute 'guild'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'User' object has no attribute 'guild'
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-p087",{"micros":44117,"calls":["discord-sessions-prd-2-10",{"micros":41538,"calls":["start_session",{"micros":33652,"calls":["api-prd-main-37mn",{"micros":29881,"calls":["get_user",{"micros":2308},"add_authorized_ip",{"micros":1436},"get_guilds",{"micros":4024},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":78,"calls":[]}]}]}] (Session ID: fa8e3d5914c9614443163192072532b3).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 63, in unban
+    await channel.send(f"```yaml\n{ctx.author.name} unbanned {member.name} from {author.guild}\nReason: {reason}\nTime: {datetime.now().strftime('%m-%d-%Y %H:%M:%S')}\n```")
+NameError: name 'author' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'author' is not defined
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-4cc3",{"micros":100798,"calls":["discord-sessions-prd-1-64",{"micros":98673,"calls":["start_session",{"micros":75308,"calls":["api-prd-main-tfjb",{"micros":71727,"calls":["get_user",{"micros":2524},"add_authorized_ip",{"micros":1760},"get_guilds",{"micros":1626},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 0b775a34a4f58bb974dc67a09b082a19).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-pwrr",{"micros":52324,"calls":["discord-sessions-prd-1-60",{"micros":51166,"calls":["start_session",{"micros":36177,"calls":["api-prd-main-dcv6",{"micros":29577,"calls":["get_user",{"micros":2934},"add_authorized_ip",{"micros":1372},"get_guilds",{"micros":1348},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":9,"calls":[]},"presence_connect",{"micros":7175,"calls":[]}]}]}] (Session ID: a5d821f0568cab12ef93a61a1e5c0f61).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\commands-moderation.py", line 29, in clear
+    await channel.send(f"```yaml\n{ctx.author.name} removed {amount} messages from {ctx.message.channel.name}\nAmount: {reason}\nTime: {datetime.now().strftime('%m-%d-%Y %H:%M:%S')}\n```")
+NameError: name 'reason' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 312, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\cogs\events.py", line 61, in on_command_error
+    raise error
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\bot.py", line 903, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\ext\commands\core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'reason' is not defined
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-ksc2",{"micros":41403,"calls":["discord-sessions-prd-1-36",{"micros":38032,"calls":["start_session",{"micros":28554,"calls":["api-prd-main-37mn",{"micros":24846,"calls":["get_user",{"micros":2494},"add_authorized_ip",{"micros":1371},"get_guilds",{"micros":1302},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 3d4b55c340e059396878b4dc8c083857).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0366DF10>
+Traceback (most recent call last):
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 719, in call_soon
+    self._check_closed()
+  File "C:\Users\wildc\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>cd C:\Users\wildc\Documents\GitHub\ShieldBot
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>cd C:\Users\wildc\Documents\GitHub\ShieldBot
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-z971",{"micros":93778,"calls":["discord-sessions-prd-1-58",{"micros":91127,"calls":["start_session",{"micros":38091,"calls":["api-prd-main-0nc1",{"micros":34449,"calls":["get_user",{"micros":4685},"add_authorized_ip",{"micros":1498},"get_guilds",{"micros":1505},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":14953,"calls":[]}]}]}] (Session ID: 35b80c2e9f4cc2894a875a46ec436386).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-0qhl",{"micros":88276,"calls":["discord-sessions-prd-1-10",{"micros":86945,"calls":["start_session",{"micros":57238,"calls":["api-prd-main-2fpp",{"micros":49839,"calls":["get_user",{"micros":4150},"add_authorized_ip",{"micros":7462},"get_guilds",{"micros":5070},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: ecbe41b8b9b6674c39eb651859c47d23).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 60
+    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.watching name = f"\"Haha code go boom!\" -{client.user.name}")) # This changes the bots 'activity'
+                                                                                                ^
+SyntaxError: invalid syntax
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 60
+    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.watching name = f"\"Haha code go boom!\" -{client.user.name}")) # This changes the bots 'activity'
+                                                                                                ^
+SyntaxError: invalid syntax
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+  File "C:\Users\wildc\Documents\GitHub\ShieldBot\bot.py", line 60
+    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.watching name = f"\"Haha code go boom!\" -{client.user.name}")) # This changes the bots 'activity'
+                                                                                                ^
+SyntaxError: invalid syntax
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-36rt",{"micros":71889,"calls":["discord-sessions-prd-2-57",{"micros":64840,"calls":["start_session",{"micros":55551,"calls":["api-prd-main-t57p",{"micros":51882,"calls":["get_user",{"micros":2529},"add_authorized_ip",{"micros":1256},"get_guilds",{"micros":4407},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":675,"calls":[]}]}]}] (Session ID: c2c3a213bf94b58049209a43f95dfb72).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-p6xk",{"micros":77051,"calls":["discord-sessions-prd-1-62",{"micros":76154,"calls":["start_session",{"micros":44214,"calls":["api-prd-main-q5k8",{"micros":40314,"calls":["get_user",{"micros":3807},"add_authorized_ip",{"micros":1553},"get_guilds",{"micros":3154},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":13,"calls":[]},"presence_connect",{"micros":7035,"calls":[]}]}]}] (Session ID: 239ea042c8a625322a8be7d43112d14f).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>cd C:\Users\wildc\Documents\GitHub\ShieldBot
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>bot.py
+C:\Users\wildc\Documents\GitHub\ShieldBot
+-----
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-lbtp",{"micros":44568,"calls":["discord-sessions-prd-2-48",{"micros":43361,"calls":["start_session",{"micros":36318,"calls":["api-prd-main-zxlt",{"micros":32275,"calls":["get_user",{"micros":2577},"add_authorized_ip",{"micros":1632},"get_guilds",{"micros":1805},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 19e9fed56f20c8098837244127af5852).
+-----
+Logged in as: ShieldBot <@754876371829784717>
+-----
+My current prefix is: -
+-----
+Fun Cog had been loaded
+-----
+Info Cog had been loaded
+-----
+Moderation Cog had been loaded
+-----
+Private Cog had been loaded
+-----
+Events Cog had been loaded
+-----
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-r7pp",{"micros":2326,"calls":["discord-sessions-prd-2-48",{"micros":15}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-4869",{"micros":2655,"calls":["discord-sessions-prd-2-48",{"micros":16}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-1lz0",{"micros":693,"calls":["discord-sessions-prd-2-48",{"micros":14}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-b43w",{"micros":2865,"calls":["discord-sessions-prd-2-48",{"micros":12}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-wp4m",{"micros":3157,"calls":["discord-sessions-prd-2-48",{"micros":16}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-j028",{"micros":4988,"calls":["discord-sessions-prd-2-48",{"micros":13}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-lbtp",{"micros":4171,"calls":["discord-sessions-prd-2-48",{"micros":17}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-1xl2",{"micros":23353,"calls":["discord-sessions-prd-2-48",{"micros":25}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-k901",{"micros":773,"calls":["discord-sessions-prd-2-48",{"micros":13}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-qfxv",{"micros":948,"calls":["discord-sessions-prd-2-48",{"micros":16}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-b43w",{"micros":2605,"calls":["discord-sessions-prd-2-48",{"micros":65}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-j3qr",{"micros":3064,"calls":["discord-sessions-prd-2-48",{"micros":43}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-11ht",{"micros":771,"calls":["discord-sessions-prd-2-48",{"micros":14}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-bpf7",{"micros":2295,"calls":["discord-sessions-prd-2-48",{"micros":18}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-b43w",{"micros":4078,"calls":["discord-sessions-prd-2-48",{"micros":33}]}].
+INFO:discord.gateway:Websocket closed with 1001, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-5v45",{"micros":2383,"calls":["discord-sessions-prd-2-48",{"micros":22}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-8cvd",{"micros":3536,"calls":["discord-sessions-prd-2-48",{"micros":15}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-r7pp",{"micros":820,"calls":["discord-sessions-prd-2-48",{"micros":12}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-drxj",{"micros":2245,"calls":["discord-sessions-prd-2-48",{"micros":13}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-01tb",{"micros":514,"calls":["discord-sessions-prd-2-48",{"micros":10}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 19e9fed56f20c8098837244127af5852 under trace ["gateway-prd-main-5g7m",{"micros":4326,"calls":["discord-sessions-prd-2-48",{"micros":36}]}].
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+
+C:\Users\wildc\Documents\GitHub\ShieldBot>

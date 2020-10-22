@@ -30,6 +30,33 @@ class Moderation(commands.Cog):
         #await ctx.channel.send(f"```yaml\n{ctx.author.name} removed {amount} messages from {ctx.message.channel.name}\nAmount: {reason}\nTime: {datetime.now().strftime('%m-%d-%Y %H:%M:%S')}\n```")
 
     @commands.command()
+    @commands.guild_only()
+    @commands.has_guild_permissions(administrator = True)
+    @commands.bot_has_guild_permissions(manage_channels=True)
+    async def lockdown(self, ctx, channel: discord.TextChannel=None):
+        """
+        Puts channel in lockdown
+        """
+        channel = channel or ctx.channel
+        # runs to determine which route to take
+        if ctx.guild.default_role not in channel.overwrites:
+            overwrites = {
+            ctx.guild.default_role: discord.PermissionOverwrite(send_messages = False)
+            }
+            await channel.edit(overwrites = overwrites)
+            await ctx.send(f"I have put `{channel.name}` on lockdown.")
+        elif channel.overwrites[ctx.guild.default_role].send_messages == True or channel.overwrites[ctx.guild.default_role].send_messages == None:
+            overwrites = channel.overwrites[ctx.guild.default_role]
+            overwrites.send_messages = False
+            await channel.set_permissions(ctx.guild.default_role, overwrite = overwrites)
+            await ctx.send(f"I have put `{channel.name}` on lockdown.")
+        else:
+            overwrites = channel.overwrites[ctx.guild.default_role]
+            overwrites.send_messages = True
+            await channel.set_permissions(ctx.guild.default_role, overwrite = overwrites)
+            await ctx.send(f"I have removed `{channel.name}` from lockdown.")
+
+    @commands.command()
     @commands.is_owner()
     @commands.has_permissions(administrator = True)
     async def kick(self, ctx, member: discord.Member, *, reason = None):
