@@ -138,9 +138,9 @@ _(prefix)[command]_
 _Turns off bot_
 
 # Resources
-I have to give a special thanks to the people over at MenuDocs with their Discord.py tutorial videos to help me get started. Please go check them out and their work here:
-*YouTube: https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA*
-*GitHub: https://github.com/MenuDocs*
+I have to give a special thanks to the people over at MenuDocs with their Discord.py tutorial videos to help me get started. Please go check them out and their work here:  
+*YouTube: https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA*  
+*GitHub: https://github.com/MenuDocs*  
 
 # Tasks
 - [x] offer more moderation control when more aggressive commands are made
