@@ -177,6 +177,9 @@ I have to give a special thanks to the people over at MenuDocs with their Discor
 *YouTube: [https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA](https://www.youtube.com/channel/UCpGGFqJP9vYvzFudqnQ-6IA)*  
 *GitHub: [https://github.com/MenuDocs](https://github.com/MenuDocs)*  
 
+I have also used some color sources which can be found in the webpage below:  
+*Link: [https://www.shutterstock.com/blog/neon-color-palettes](https://www.shutterstock.com/blog/neon-color-palettes)*  
+
 # Tasks
 - [x] offer more moderation control when more aggressive commands are made
 - [ ] develop music bot formatting
