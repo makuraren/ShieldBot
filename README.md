@@ -1,5 +1,5 @@
 # ShieldBot Directory
-![ShieldBot Logo](/docs/bot_resize.png)
+![ShieldBot Logo](/docs/bot.jpg)
 * [Info](https://github.com/makuraren/ShieldBot/blob/master/README.md#info)
 * [Invite Information](https://github.com/makuraren/ShieldBot/blob/master/README.md#invite-information)
 * [Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#commands)
