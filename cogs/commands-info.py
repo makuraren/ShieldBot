@@ -24,7 +24,7 @@ class Info(commands.Cog):
         serverCount = len(self.client.guilds)
         memberCount = len(set(self.client.get_all_members()))
 
-        embed = discord.Embed(title = f'{self.client.user.name} Stats', description = '\uFEFF', colour = client.theme_color, timestamp = ctx.message.created_at)
+        embed = discord.Embed(title = f'{self.client.user.name} Stats', description = '\uFEFF', color=random.choice(self.client.theme_color), timestamp = ctx.message.created_at)
 
         embed.add_field(name = 'Bot Version:', value = self.client.version)
         embed.add_field(name = 'Python Version:', value = pythonVersion)

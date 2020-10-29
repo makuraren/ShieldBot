@@ -30,7 +30,8 @@ client.version = '0.2.4'
 
 client.blacklisted_users = []
 
-client.theme_color = 0xFE258A
+client.theme = {'COLOR': 0xFE258A}
+client.theme_color = [c for c in client.theme.values()]
 
 client.colors = {
   'GEOG1': 0x08F7FE,
