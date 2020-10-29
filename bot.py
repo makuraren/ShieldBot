@@ -20,7 +20,6 @@ def get_prefix(client, message):
         return commands.when_mentioned_or('-')(client, message)
     return commands.when_mentioned_or(data[str(message.guild.id)])(client, message)
 
-
 # Defining a few things
 secret_file = json.load(open(cwd+'/client_config/secrets.json'))
 client = commands.Bot(command_prefix=get_prefix, case_insensitive=True, owner_id = 300251178107928576)
@@ -57,7 +56,7 @@ client.color_list = [c for c in client.colors.values()]
 @client.event
 async def on_ready():
     print(f"-----\nLogged in as: {client.user.name} <@{client.user.id}>\n-----\nMy current prefix is: -\n-----")
-    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.listening, name = f"\"Boom!\" -{client.user.name}")) # This changes the bots 'activity'
+    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.listening, name = f"code breaking")) # This changes the bots 'activity'
 
 @client.event
 async def on_message(message):

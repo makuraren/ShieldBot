@@ -9,6 +9,7 @@
         * [[8ball]](https://github.com/makuraren/ShieldBot/blob/master/README.md#8ball)
     * [Info Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#info-commands)
         * [[stats]](https://github.com/makuraren/ShieldBot/blob/master/README.md#stats)
+        * [[channelstats]](https://github.com/makuraren/ShieldBot/blob/master/README.md#channelstats)
         * [[directory]](https://github.com/makuraren/ShieldBot/blob/master/README.md#directory)
     * [Moderation Commands](https://github.com/makuraren/ShieldBot/blob/master/README.md#moderation-commands)
         * [[clear]](https://github.com/makuraren/ShieldBot/blob/master/README.md#clear)
@@ -71,8 +72,18 @@ _(prefix)[command]_
 **Description:**  
 _A useful command that displays bot statistics._
 
+### [channelstats]  
+>**Aliases**  
+_{cstats}_  
+**Format:**  
+_(prefix)[command]_  
+**Description:**  
+_Sends a some channel stats._
+
 ### [directory]
->**Format:**  
+>**Aliases**  
+_{d}_  
+**Format:**  
 _(prefix)[command]_  
 **Description:**  
 _Grabs README.md from directory._

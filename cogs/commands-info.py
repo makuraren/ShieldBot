@@ -38,11 +38,11 @@ class Info(commands.Cog):
 
         await ctx.send(embed = embed)
 
-    @commands.command()
+    @commands.command(aliases = ['cstats'])
     @commands.bot_has_guild_permissions(manage_channels=True)
     async def channelstats(self, ctx):
         """
-        Sends a nice fancy embed with some channel stats
+        Sends a some channel stats
         """
         channel = ctx.channel
         embed = discord.Embed(title=f"Stats for **{channel.name}**", description=f"{'Category: {}'.format(channel.category.name) if channel.category else 'This channel is not in a category'}", color=random.choice(self.client.color_list))
@@ -59,7 +59,7 @@ class Info(commands.Cog):
 
         await ctx.send(embed=embed)
 
-    @commands.command()
+    @commands.command(aliases = ['d'])
     async def directory(self, ctx):
         """
         Grabs README.md from directory
